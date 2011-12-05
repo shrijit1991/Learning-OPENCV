@@ -1,0 +1,3 @@
+This example captures frames from web cam and splits it into RED, GREED, BLUE components and displays each component separately.
+
+Good luck!
