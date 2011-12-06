@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/ColorSpaceConv.dir/CSConv.o  -o ColorSpaceConv -rdynamic /usr/local/lib/libopencv_core.so.2.3 /usr/local/lib/libopencv_highgui.so.2.3 /usr/local/lib/libopencv_imgproc.so.2.3 

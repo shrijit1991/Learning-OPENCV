@@ -1,0 +1,1 @@
+/home/shrijit/GitHub/Learning-OPENCV/shrijit/Examples/ColorSpaceConv/build/CMakeFiles/ColorSpaceConv.dir
