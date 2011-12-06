@@ -1,0 +1,7 @@
+This example illustrates how we can convert between different color spaces, ie: form RGB to HSV.
+
+This program grabs a frame from cam and converts it into its HSV components and displayes each component separately.
+
+Until next time !!!
+
+:) :) :)
