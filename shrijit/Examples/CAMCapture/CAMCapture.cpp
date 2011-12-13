@@ -31,24 +31,15 @@ int main ( int argc, char **argv )
         cout << "Error while fetching frame form camera!!!\n";
         error_code = -1;
         cont = false;
+        break;
       }
       else
-      {
+      { 
         red = cvCreateImage(cvGetSize(img), 8, 1);
         green = cvCreateImage(cvGetSize(img), 8, 1);
         blue = cvCreateImage(cvGetSize(img), 8, 1);
         
-        //copy blue channel of img in blue
-        cvSetImageCOI(img, 1);
-        cvCopy(img, blue, NULL);
-        
-        //copy green channel of img in green
-        cvSetImageCOI(img, 2);
-        cvCopy(img, green, NULL);
-        
-        //copy red channel of img in red
-        cvSetImageCOI(img, 3);
-        cvCopy(img, red, NULL);
+        cvSplit(img, red, green, blue, 0);
         
         cvNamedWindow("RED CHANNEL", CV_WINDOW_AUTOSIZE);
         cvNamedWindow("GREEN CHANNEL", CV_WINDOW_AUTOSIZE);
@@ -65,15 +56,14 @@ int main ( int argc, char **argv )
         if(res == 'q')
         {
           cont = false;
+          break;
         }
       }
-      if(!cont)
-        break;
+	  cvReleaseImage(&red);
+	  cvReleaseImage(&green);
+	  cvReleaseImage(&blue);
     }
     cvReleaseImage(&img);
-    cvReleaseImage(&red);
-    cvReleaseImage(&green);
-    cvReleaseImage(&blue);
   }
   return error_code;
 }

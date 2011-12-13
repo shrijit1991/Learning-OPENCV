@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/CAMCapture.dir/CAMCapture.o  -o CAMCapture -rdynamic -lopencv_core -lopencv_highgui 

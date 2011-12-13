@@ -1,1 +1,3 @@
-/home/shrijit/GitHub/Learning-OPENCV/shrijit/Examples/CAMCapture/build/CMakeFiles/CAMCapture.dir
+D:/OpenCV_Projects/Learning_OpenCV/shrijit/Examples/CAMCapture/build/CMakeFiles/ALL_BUILD.dir
+D:/OpenCV_Projects/Learning_OpenCV/shrijit/Examples/CAMCapture/build/CMakeFiles/CAMCapture.dir
+D:/OpenCV_Projects/Learning_OpenCV/shrijit/Examples/CAMCapture/build/CMakeFiles/ZERO_CHECK.dir
